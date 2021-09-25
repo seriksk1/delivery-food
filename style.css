@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  display: flex;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8c8c8c;
+}
+
+body {
+  background-color: #e8e8e8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.caption {
+  font-size: 24px;
+}
+
+.descr {
+}
+
+.text {
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn img {
+  margin-right: 5px;
+}
+
+.btn:hover {
+  box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 5%);
+}
+
+.primary {
+  color: #fff;
+  background-color: #1890ff;
+}
+
+.primary:hover {
+  background-color: #1d7ed8;
+}
+
+.outlined {
+  color: #595959;
+  background-color: transparent;
+  border: 1px solid #8c8c8c;
+}
+
+.outlined:hover {
+  background-color: #f0f0f0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  margin: 0 auto;
+  max-width: 85%;
+}
+
+.header-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.header-search input {
+  width: 80%;
+  padding: 8px 12px;
+  background-color: transparent;
+  border: 1px solid #8c8c8c;
+  font-size: 16px;
+  line-height: 24px;
+
+  background: url('assets/images/icons/home-icon.svg');
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  padding-left: 35px;
+}
+
+.header-buttons {
+}
+
+.promo {
+  font-size: 24px;
+  padding: 68px 70px;
+  border-radius: 10px;
+  background-color: #fff1b8;
+  background-image: url('./assets/images/promo-img.png');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  box-shadow: 0px 10px 15px 4px rgb(0 0 0 / 5%);
+}
+
+.promo-text {
+  width: 40%;
+}
+
+.promo-text .title {
+  width: 85%;
+  margin-bottom: 15px;
+}
+
+main {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.restaurants-top {
+  justify-content: space-between;
+  align-items: center;
+  margin: 56px 0 44px;
+}
+
+.restaurants-search {
+  width: 25%;
+}
+
+.restaurants-search input {
+  width: 100%;
+  padding: 5px 12px;
+  background-color: transparent;
+  border: 1px solid #8c8c8c;
+  font-size: 16px;
+  line-height: 24px;
+
+  background: url('assets/images/icons/search-icon.svg');
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 8px;
+  padding-left: 35px;
+}
+
+.restaurants-list {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 92px;
+}
+
+.restaurants-list-item {
+  flex-basis: 32%;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+}
+
+.restaurant-img {
+  width: 100%;
+}
+
+.restaurant-descr {
+  padding: 20px 24px 35px;
+}
+
+.restaurant-descr-top {
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.restaurant-descr-top {
+  font-size: 18px;
+}
+
+.restaurant-name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.restaurant-delivery-time {
+  font-size: 12px;
+  height: fit-content;
+  padding: 5px 8px;
+  color: #fff;
+  background-color: #262626;
+}
+
+.restaurant-descr-bottom {
+  color: #595959;
+}
+
+.restaurant-rating {
+  margin-right: 26px;
+}
+
+.rating-icon {
+  margin-right: 7px;
+}
+
+.rating-number {
+  color: #ffc107;
+}
+
+.restaurant-price {
+}
+
+.restaurant-food {
+}
+
+.divider {
+  padding: 0 5px;
+}
+
+footer {
+  padding: 60px 128px;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.footer-all-nav {
+  width: 90%;
+  justify-content: space-between;
+}
+
+.footer-nav-list {
+  align-items: center;
+}
+
+.footer-nav-list-item {
+  margin: 0 10px;
+}
+
+.footer-socials {
+  align-items: center;
+}
+
+.footer-social {
+  margin: 0 10px;
+}
