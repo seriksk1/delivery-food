@@ -10,189 +10,188 @@
   </head>
   <body>
     <!-- ₽ -->
+    <div class="container">
+      <header class="header">
+        <a href="./index.html" class="logo">
+          <img src="./assets/images/logo.svg" alt="logo" class="logo" />
+        </a>
+        <input type="text" class="input input-address" placeholder="Адрес доставки" />
+        <div class="buttons">
+          <button class="button button-primary button-auth">
+            <img src="./assets/images/icons/profile-icon.svg" alt="user" class="button-icon" />
+            <span class="button-text">Войти</span>
+          </button>
+          <button class="button" id="cart-button">
+            <img src="./assets/images/icons/cart-icon.svg" alt="cart" class="button-icon" />
+            <span class="button-text">Корзина</span>
+          </button>
+        </div>
+      </header>
+    </div>
 
-    <header class="row">
-      <img src="./assets/images/logo.svg" alt="" class="header-logo" />
-
-      <div class="header-search">
-        <input
-          type="search"
-          name="search-address"
-          id="search-address"
-          placeholder="Адрес доставки"
-        />
-      </div>
-
-      <div class="header-buttons row">
-        <button class="btn primary">
-          <img src="./assets/images/icons/profile-icon.svg" alt="" />
-          <p>Войти</p>
-        </button>
-
-        <button class="btn outlined">
-          <img src="./assets/images/icons/cart-icon.svg" alt="" />
-          <p>Корзина</p>
-        </button>
-      </div>
-    </header>
-
-    <main class="column">
-      <div class="promo row">
-        <div class="promo-text">
-          <div class="title">Онлайн-сервис доставки еды на дом</div>
-          <div class="descr">
+    <div class="main">
+      <div class="container">
+        <section class="promo container-promo">
+          <h1 class="promo-title">
+            Онлайн-сервис <br />
+            доставки еды на дом
+          </h1>
+          <p class="promo-text">
             Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком
+          </p>
+        </section>
+        <section class="restaurants">
+          <div class="section-heading">
+            <h2 class="section-title">Рестораны</h2>
+            <input type="search" class="input input-search" placeholder="Поиск блюд и ресторанов" />
           </div>
-        </div>
-      </div>
-
-      <div class="restaurants column">
-        <div class="restaurants-top row">
-          <div class="title">Рестораны</div>
-          <div class="restaurants-search">
-            <input type="search" name="" id="" placeholder="Поиск блюд и ресторанов" />
+          <div class="cards cards-restaurants">
+            <a href="./restaurant.html" class="card">
+              <img src="./assets/images/restaurants/1.png" alt="rest-1" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">Пицца плюс</h3>
+                  <span class="tag card-tag">50 мин</span>
+                </div>
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="./assets/images/icons/rating-icon.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
+            <a href="./restaurant.html" class="card">
+              <img src="./assets/images/restaurants/2.png" alt="rest-2" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">Тануки</h3>
+                  <span class="tag card-tag">50 мин</span>
+                </div>
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="./assets/images/icons/rating-icon.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
+            <a href="./restaurant.html" class="card">
+              <img src="./assets/images/restaurants/3.png" alt="rest-3" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">FoodBand</h3>
+                  <span class="tag card-tag">50 мин</span>
+                </div>
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="./assets/images/icons/rating-icon.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
+            <a href="./restaurant.html" class="card">
+              <img src="./assets/images/restaurants/4.png" alt="rest-4" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">Жадина-Пицца</h3>
+                  <span class="tag card-tag">50 мин</span>
+                </div>
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="./assets/images/icons/rating-icon.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
+            <a href="./restaurant.html" class="card">
+              <img src="./assets/images/restaurants/5.png" alt="rest-5" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">Точка еды</h3>
+                  <span class="tag card-tag">50 мин</span>
+                </div>
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="./assets/images/icons/rating-icon.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
+            <a href="./restaurant.html" class="card">
+              <img src="./assets/images/restaurants/6.png" alt="rest-6" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">PizzaBurger</h3>
+                  <span class="tag card-tag">50 мин</span>
+                </div>
+                <div class="card-info">
+                  <div class="rating">
+                    <img
+                      src="./assets/images/icons/rating-icon.svg"
+                      alt="rating"
+                      class="rating-star"
+                    />4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
           </div>
-        </div>
-
-        <ul class="restaurants-list row">
-          <li class="restaurants-list-item">
-            <img src="assets/images/restaurants/1.png" alt="" class="restaurant-img" />
-            <div class="restaurant-descr">
-              <div class="restaurant-descr-top row">
-                <h4 class="restaurant-name">Жадина пицца</h4>
-                <p class="restaurant-delivery-time">50 мин</p>
-              </div>
-              <div class="restaurant-descr-bottom row">
-                <div class="restaurant-rating row">
-                  <img class="rating-icon" src="assets/images/icons/rating-icon.svg" />
-                  <span class="rating-number">4.5</span>
-                </div>
-                <p class="restaurant-avg-price">От 900₽</p>
-                <img class="divider" src="assets/images/icons/divider.svg" />
-                <p class="restaurant-food">Пицца</p>
-              </div>
-            </div>
-          </li>
-
-          <li class="restaurants-list-item">
-            <img src="assets/images/restaurants/2.png" alt="" class="restaurant-img" />
-            <div class="restaurant-descr">
-              <div class="restaurant-descr-top row">
-                <h4 class="restaurant-name">Жадина пицца</h4>
-                <p class="restaurant-delivery-time">50 мин</p>
-              </div>
-              <div class="restaurant-descr-bottom row">
-                <div class="restaurant-rating row">
-                  <img class="rating-icon" src="assets/images/icons/rating-icon.svg" />
-                  <span class="rating-number">4.5</span>
-                </div>
-                <p class="restaurant-avg-price">От 900₽</p>
-                <img class="divider" src="assets/images/icons/divider.svg" />
-                <p class="restaurant-food">Пицца</p>
-              </div>
-            </div>
-          </li>
-
-          <li class="restaurants-list-item">
-            <img src="assets/images/restaurants/3.png" alt="" class="restaurant-img" />
-            <div class="restaurant-descr">
-              <div class="restaurant-descr-top row">
-                <h4 class="restaurant-name">Жадина пицца</h4>
-                <p class="restaurant-delivery-time">50 мин</p>
-              </div>
-              <div class="restaurant-descr-bottom row">
-                <div class="restaurant-rating row">
-                  <img class="rating-icon" src="assets/images/icons/rating-icon.svg" />
-                  <span class="rating-number">4.5</span>
-                </div>
-                <p class="restaurant-avg-price">От 900₽</p>
-                <img class="divider" src="assets/images/icons/divider.svg" />
-                <p class="restaurant-food">Пицца</p>
-              </div>
-            </div>
-          </li>
-
-          <li class="restaurants-list-item">
-            <img src="assets/images/restaurants/4.png" alt="" class="restaurant-img" />
-            <div class="restaurant-descr">
-              <div class="restaurant-descr-top row">
-                <h4 class="restaurant-name">Жадина пицца</h4>
-                <p class="restaurant-delivery-time">50 мин</p>
-              </div>
-              <div class="restaurant-descr-bottom row">
-                <div class="restaurant-rating row">
-                  <img class="rating-icon" src="assets/images/icons/rating-icon.svg" />
-                  <span class="rating-number">4.5</span>
-                </div>
-                <p class="restaurant-avg-price">От 900₽</p>
-                <img class="divider" src="assets/images/icons/divider.svg" />
-                <p class="restaurant-food">Пицца</p>
-              </div>
-            </div>
-          </li>
-
-          <li class="restaurants-list-item">
-            <img src="assets/images/restaurants/5.png" alt="" class="restaurant-img" />
-            <div class="restaurant-descr">
-              <div class="restaurant-descr-top row">
-                <h4 class="restaurant-name">Жадина пицца</h4>
-                <p class="restaurant-delivery-time">50 мин</p>
-              </div>
-              <div class="restaurant-descr-bottom row">
-                <div class="restaurant-rating row">
-                  <img class="rating-icon" src="assets/images/icons/rating-icon.svg" />
-                  <span class="rating-number">4.5</span>
-                </div>
-                <p class="restaurant-avg-price">От 900₽</p>
-                <img class="divider" src="assets/images/icons/divider.svg" />
-                <p class="restaurant-food">Пицца</p>
-              </div>
-            </div>
-          </li>
-
-          <li class="restaurants-list-item">
-            <img src="assets/images/restaurants/6.png" alt="" class="restaurant-img" />
-            <div class="restaurant-descr">
-              <div class="restaurant-descr-top row">
-                <h4 class="restaurant-name">Жадина пицца</h4>
-                <p class="restaurant-delivery-time">50 мин</p>
-              </div>
-              <div class="restaurant-descr-bottom row">
-                <div class="restaurant-rating row">
-                  <img class="rating-icon" src="assets/images/icons/rating-icon.svg" />
-                  <span class="rating-number">4.5</span>
-                </div>
-                <p class="restaurant-avg-price">От 900₽</p>
-                <img class="divider" src="assets/images/icons/divider.svg" />
-                <p class="restaurant-food">Пицца</p>
-              </div>
-            </div>
-          </li>
-        </ul>
+        </section>
       </div>
-    </main>
+    </div>
 
-    <footer class="row">
-      <img src="./assets/images/logo.svg" alt="" class="footer-logo" />
-
-      <div class="footer-all-nav row">
-        <ul class="footer-nav-list row">
-          <a href="#"><li class="footer-nav-list-item">Ресторанам</li></a>
-          <a href="#"><li class="footer-nav-list-item">Курьерам</li></a>
-          <a href="#"><li class="footer-nav-list-item">Пресс-центр</li></a>
-          <a href="#"><li class="footer-nav-list-item">Контакты</li></a>
-        </ul>
-
-        <div class="footer-socials row">
-          <a href="#"
-            ><img src="./assets/images/socialmedia/instagram-icon.svg" alt="" class="footer-social"
-          /></a>
-          <a href="#"
-            ><img src="./assets/images/socialmedia/facebook-icon.svg" alt="" class="footer-social"
-          /></a>
-          <a href="#"
-            ><img src="./assets/images/socialmedia/vk-icon.svg" alt="" class="footer-social"
-          /></a>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-block">
+          <img src="./assets/images/logo.svg" alt="logo" class="logo footer-logo" />
+          <nav class="footer-nav">
+            <a href="#" class="footer-link">Ресторанам</a>
+            <a href="#" class="footer-link">Курьерам</a>
+            <a href="#" class="footer-link">Пресс-центр</a>
+            <a href="#" class="footer-link">Контакты</a>
+          </nav>
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <img src="./assets/images/socialmedia/instagram-icon.svg" alt="inst" />
+            </a>
+            <a href="#" class="social-link">
+              <img src="./assets/images/socialmedia/facebook-icon.svg" alt="facebook" />
+            </a>
+            <a href="#" class="social-link">
+              <img src="./assets/images/socialmedia/vk-icon.svg" alt="vk" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
