@@ -194,4 +194,20 @@
   .promo-text {
     max-width: 220px;
   }
+
+  .modal-dialog-auth {
+    max-width: 95%;
+  }
+
+  fieldset .modal-title {
+    font-size: 25px;
+  }
+
+  .label-auth {
+    margin: 10px 0;
+  }
+
+  .modal-dialog-auth .modal-footer {
+    margin-top: 30px;
+  }
 }

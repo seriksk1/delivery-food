@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media.css" />
     <title>Delivery Food</title>
@@ -12,7 +16,7 @@
     <!-- ₽ -->
     <div class="container">
       <header class="header">
-        <a href="./index.html" class="logo">
+        <a href="./index.html" class="logo animate__animated animate__zoomIn">
           <img src="./assets/images/logo.svg" alt="logo" class="logo" />
         </a>
         <input type="text" class="input input-address" placeholder="Адрес доставки" />
@@ -47,7 +51,7 @@
             </div>
           </div>
           <div class="cards cards-menu">
-            <div class="card card-rest">
+            <div class="card card-rest animate__animated animate__fadeInDown animate__delay-1s">
               <img src="./assets/images/dishes/1.jpg" alt="dish-1" class="card-image-rest" />
               <div class="card-text">
                 <div class="card-heading">
@@ -69,7 +73,7 @@
                 </div>
               </div>
             </div>
-            <div class="card card-rest">
+            <div class="card card-rest animate__animated animate__fadeInDown animate__delay-1s">
               <img src="./assets/images/dishes/2.jpg" alt="dish-2" class="card-image-rest" />
               <div class="card-text">
                 <div class="card-heading">
@@ -93,7 +97,7 @@
                 </div>
               </div>
             </div>
-            <div class="card card-rest">
+            <div class="card card-rest animate__animated animate__fadeInDown animate__delay-1s">
               <img src="./assets/images/dishes/3.jpg" alt="dish-3" class="card-image-rest" />
               <div class="card-text">
                 <div class="card-heading">
@@ -117,7 +121,7 @@
                 </div>
               </div>
             </div>
-            <div class="card card-rest">
+            <div class="card card-rest animate__animated animate__fadeInDown animate__delay-1s">
               <img src="./assets/images/dishes/4.jpg" alt="dish-4" class="card-image-rest" />
               <div class="card-text">
                 <div class="card-heading">
@@ -141,7 +145,7 @@
                 </div>
               </div>
             </div>
-            <div class="card card-rest">
+            <div class="card card-rest animate__animated animate__fadeInDown animate__delay-1s">
               <img src="./assets/images/dishes/5.jpg" alt="dish-5" class="card-image-rest" />
               <div class="card-text">
                 <div class="card-heading">
@@ -165,7 +169,7 @@
                 </div>
               </div>
             </div>
-            <div class="card card-rest">
+            <div class="card card-rest animate__animated animate__fadeInDown animate__delay-1s">
               <img src="./assets/images/dishes/6.jpg" alt="dish-6" class="card-image-rest" />
               <div class="card-text">
                 <div class="card-heading">
@@ -218,5 +222,71 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal">
+      <div class="modal-dialog animate__animated animate__fadeInDownBig">
+        <div class="modal-header">
+          <h3 class="modal-title">Корзина</h3>
+          <button class="close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button">+</button>
+            </div>
+          </div>
+          <div class="food-row">
+            <span class="food-name">Ролл угорь стандарт</span>
+            <strong class="food-price">250 ₽</strong>
+            <div class="food-counter">
+              <button class="counter-button">-</button>
+              <span class="counter">1</span>
+              <button class="counter-button">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <span class="modal-pricetag">1250 ₽</span>
+          <div class="footer-buttons">
+            <button class="button button-primary">Оформить заказ</button>
+            <button class="button">Отмена</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
