@@ -16,11 +16,16 @@
     <!-- ₽ -->
     <div class="container">
       <header class="header">
-        <a href="./index.html" class="logo animate__animated animate__zoomIn">
-          <img src="./assets/images/logo.svg" alt="logo" class="logo" />
+        <a class="logo" href="./index.html">
+          <img
+            src="./assets/images/logo.svg"
+            alt="logo"
+            class="logo animate__animated animate__zoomIn"
+          />
         </a>
-        <input type="text" class="input input-address" placeholder="Адрес доставки" />
+        <input type="text" class="input input-adress" placeholder="Адрес доставки" />
         <div class="buttons">
+          <span class="user-name"></span>
           <button class="button button-primary button-auth">
             <img src="./assets/images/icons/profile-icon.svg" alt="user" class="button-icon" />
             <span class="button-text">Войти</span>
@@ -28,6 +33,10 @@
           <button class="button" id="cart-button">
             <img src="./assets/images/icons/cart-icon.svg" alt="cart" class="button-icon" />
             <span class="button-text">Корзина</span>
+          </button>
+          <button class="button button-primary button-out">
+            <img src="./assets/images/icons/logout-icon.svg" alt="cart" class="button-icon" />
+            <span class="button-text">Выйти</span>
           </button>
         </div>
       </header>

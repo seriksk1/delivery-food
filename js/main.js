@@ -12,18 +12,6 @@ const loginInput = document.querySelector('#login');
 const userName = document.querySelector('.user-name');
 const buttonOut = document.querySelector('.button-out');
 
-const cardsRestaurants = document.querySelector('.cards-restaurants');
-const containerPromo = document.querySelector('.container-promo');
-const restaurants = document.querySelector('.restaurants');
-const menu = document.querySelector('.menu');
-const logo = document.querySelector('.logo');
-const cardsMenu = document.querySelector('.cards-menu');
-const restaurantTitle = document.querySelector('.section-title-rest');
-const restaurantRating = document.querySelector('.rating');
-const restaurantPrice = document.querySelector('.price');
-const restaurantCategory = document.querySelector('.category');
-const restaurant = document.querySelector('.card');
-
 let login = localStorage.getItem('login');
 
 function ToggleModal() {
@@ -94,12 +82,6 @@ function authorized() {
 function init() {
   cartButton.addEventListener('click', ToggleModal);
   close.addEventListener('click', ToggleModal);
-
-  logo.addEventListener('click', function () {
-    containerPromo.classList.remove('hide');
-    restaurants.classList.remove('hide');
-    menu.classList.add('hide');
-  });
 
   checkAuth();
 }
