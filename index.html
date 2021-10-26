@@ -13,18 +13,19 @@
     <title>Delivery Food</title>
   </head>
   <body>
-    <!-- ₽ -->
+    <!-- ₽   -->
     <div class="container">
       <header class="header">
-        <a href="./index.html" class="logo">
+        <a class="logo">
           <img
             src="./assets/images/logo.svg"
             alt="logo"
             class="logo animate__animated animate__zoomIn"
           />
         </a>
-        <input type="text" class="input input-address" placeholder="Адрес доставки" />
+        <input type="text" class="input input-adress" placeholder="Адрес доставки" />
         <div class="buttons">
+          <span class="user-name"></span>
           <button class="button button-primary button-auth">
             <img src="./assets/images/icons/profile-icon.svg" alt="user" class="button-icon" />
             <span class="button-text">Войти</span>
@@ -32,6 +33,10 @@
           <button class="button" id="cart-button">
             <img src="./assets/images/icons/cart-icon.svg" alt="cart" class="button-icon" />
             <span class="button-text">Корзина</span>
+          </button>
+          <button class="button button-primary button-out">
+            <img src="./assets/images/icons/logout-icon.svg" alt="cart" class="button-icon" />
+            <span class="button-text">Выйти</span>
           </button>
         </div>
       </header>
@@ -282,6 +287,30 @@
             <button class="button">Отмена</button>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="modal modal-auth">
+      <div class="modal-dialog modal-dialog-auth animate__animated animate__fadeInDown">
+        <button class="close close-auth">&times;</button>
+        <form id="logInForm">
+          <fieldset class="modal-body">
+            <legend class="modal-title">Авторизация</legend>
+            <label class="label-auth">
+              <span>Логин</span>
+              <input id="login" type="text" />
+            </label>
+            <label class="label-auth">
+              <span>Пароль</span>
+              <input id="password" type="password" />
+            </label>
+          </fieldset>
+          <div class="modal-footer">
+            <div class="footer-buttons">
+              <button class="button button-primary button-login" type="submit">Войти</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
 
